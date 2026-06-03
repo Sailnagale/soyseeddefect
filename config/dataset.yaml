@@ -1,0 +1,11 @@
+# Core YOLO model configuration mapping
+train: ../dataset_root/train/images
+val: ../dataset_root/Validation/images
+test: ../dataset_root/test/images
+
+nc: 4
+names:
+  0: Healthy
+  1: Normal_Damage
+  2: Testa cracking
+  3: pulse_beetle_damage
